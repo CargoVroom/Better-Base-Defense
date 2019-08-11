@@ -1,0 +1,29 @@
+{
+	"Name": "BetterBaseDefense",
+	"Enabled": true,
+	"Version": "2.0.0",
+	"Description": "Enables friendly turrets on base defense contracts",
+	"Author": "Cargo Vroom",
+	"Website": "",
+	"Contact": "fakeemail@fakeemail.com",
+	"ConflictsWith": [
+	],
+	"Manifest": [
+		{
+			"Type": "ContractOverride",
+			"Path": "contracts/defendbase"
+		},
+		{
+			"Type": "ContractOverride",
+			"Path": "contracts/defendbase/2"
+		},
+		{
+			"Type": "ContractOverride",
+			"Path": "contracts/defendbase/5"
+		},
+		{
+			"Type": "ContractOverride",
+			"Path": "contracts/defendbase/8"
+		}
+	]
+}
